@@ -46,8 +46,24 @@ ul li a:hover {
 }
 
 .blog p {
-  font-size: 12px;
+  font-size: 14px;
   text-align: justify;
   margin: 10px;
+}
+
+.btn, .contactBtn, .clickBtn {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #fff;
+  margin: 10px;
+}
+
+.contactBtn {
+  background-color: tomato;
+}
+
+.clickBtn {
+  background-color: teal;
 }
 /*# sourceMappingURL=style.css.map */

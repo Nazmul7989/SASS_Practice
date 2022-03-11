@@ -17,7 +17,7 @@ footer{
     padding: 10px 0;
 }
 
-//sass nesting
+//sass nesting practice
 
 ul{
     width: 100%;
@@ -37,7 +37,7 @@ ul{
     }
 }
 
-//sass mixin
+//sass mixin practice
 @mixin para-style1 {
     font-size: 20px;
     text-align: justify;
@@ -46,7 +46,7 @@ ul{
 
 @mixin para-style2($size,$align) {
     font-size: $size;
-    text-align: $align;
+    text-align: $align; 
     margin: 10px;
 }
 
@@ -55,5 +55,25 @@ ul{
 }
 
 .blog p{
-    @include para-style2(12px, justify );
+    @include para-style2(14px, justify );
+}
+
+
+//sass extend practice
+.btn{
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #fff;  
+  margin: 10px;
+}
+
+.contactBtn{
+    @extend .btn;
+    background-color: tomato;
+}
+
+.clickBtn{
+    @extend .btn;
+    background-color: teal;
 }
