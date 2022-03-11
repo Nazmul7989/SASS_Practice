@@ -77,3 +77,28 @@ ul{
     @extend .btn;
     background-color: teal;
 }
+
+
+//condition practice
+@mixin setFontSize($value) {
+    @if $value == small {
+        font-size: 12px;
+    }
+    @else if $value == medium{
+        font-size: 20px;
+    }
+    @else if $value == large{
+        font-size: 30px;
+    }
+    @else{
+        font-size: 16px;
+    }
+}
+
+
+.condition{
+    color: #282828;
+    padding: 10px;
+    text-align: justify;
+    @include setFontSize(medium);
+}

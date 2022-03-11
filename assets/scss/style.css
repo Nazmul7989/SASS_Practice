@@ -66,4 +66,11 @@ ul li a:hover {
 .clickBtn {
   background-color: teal;
 }
+
+.condition {
+  color: #282828;
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
