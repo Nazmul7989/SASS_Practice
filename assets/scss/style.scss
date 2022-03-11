@@ -15,6 +15,7 @@ footer{
     background-color: $footer-bgc;
     color: $white-color;
     padding: 10px 0;
+    text-align: center;
 }
 
 //sass nesting practice
@@ -102,3 +103,29 @@ ul{
     text-align: justify;
     @include setFontSize(medium);
 }
+
+//map over items using @each
+
+ol{
+    margin: 10px 30px;
+}
+ol li{
+    margin: 10px 30px;
+    font-size: 30px;
+}
+
+
+// @each $color in red,green,blue {
+//     .#{$color}-text{
+//         color: $color;
+//     }
+// }
+
+$colors : (color1:red,color2:green,color3:blue);
+
+@each $key, $color in $colors {
+    .#{$color}-text{
+        color: $color;
+    }
+}
+

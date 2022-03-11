@@ -17,6 +17,7 @@ footer {
   background-color: #262626;
   color: #ffffff;
   padding: 10px 0;
+  text-align: center;
 }
 
 ul {
@@ -72,5 +73,26 @@ ul li a:hover {
   padding: 10px;
   text-align: justify;
   font-size: 20px;
+}
+
+ol {
+  margin: 10px 30px;
+}
+
+ol li {
+  margin: 10px 30px;
+  font-size: 30px;
+}
+
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: green;
+}
+
+.blue-text {
+  color: blue;
 }
 /*# sourceMappingURL=style.css.map */
