@@ -1,0 +1,54 @@
+
+// reset browser style
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//sass variable
+//background color
+$header-bgc : #2471A3;
+$main-bgc : #F2F3F4 ;
+$footer-bgc : #2E4053 ;
+
+//text color
+$white-color : #ffffff;
+
+
+
+header{
+    background-color: $header-bgc;
+}
+
+main{
+    background-color: $main-bgc;
+}
+
+footer{
+    background-color: $footer-bgc;
+    color: $white-color;
+    padding: 10px 0;
+}
+
+//sass nesting
+
+ul{
+    width: 100%;
+    height: auto;
+
+    li{
+        display: inline-block;
+        a{
+            color: $white-color;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        a:hover{
+            background-color: tomato;
+        }
+    }
+}

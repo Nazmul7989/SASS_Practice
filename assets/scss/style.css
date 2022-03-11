@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #2471A3;
+}
+
+main {
+  background-color: #F2F3F4;
+}
+
+footer {
+  background-color: #2E4053;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+ul {
+  width: 100%;
+  height: auto;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+ul li a:hover {
+  background-color: tomato;
+}
+/*# sourceMappingURL=style.css.map */
