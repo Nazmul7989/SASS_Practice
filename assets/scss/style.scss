@@ -36,3 +36,24 @@ ul{
         }
     }
 }
+
+//sass mixin
+@mixin para-style1 {
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+@mixin para-style2($size,$align) {
+    font-size: $size;
+    text-align: $align;
+    margin: 10px;
+}
+
+.about p{
+    @include para-style1;
+}
+
+.blog p{
+    @include para-style2(12px, justify );
+}
