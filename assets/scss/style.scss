@@ -1,21 +1,5 @@
-
-// reset browser style
-
-*{
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-//sass variable
-//background color
-$header-bgc : #2471A3;
-$main-bgc : #F2F3F4 ;
-$footer-bgc : #2E4053 ;
-
-//text color
-$white-color : #ffffff;
+@import "reset";
+@import "variables";
 
 
 
